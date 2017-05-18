@@ -10,3 +10,4 @@ services:
       - ./config/nagios/etc/:/opt/nagios/etc/
       - ./config/nagios/var/:/opt/nagios/var/
       - ./config/plugins:/opt/Custom-Nagios-Plugins
+      - ./config/apache2/nagios.conf:/etc/apache2/sites-available/nagios.conf
