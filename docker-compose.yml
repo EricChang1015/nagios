@@ -1,0 +1,12 @@
+version: '3.1'
+services:
+  nagios:
+    container_name: nagios4
+    image: jasonrivers/nagios:latest
+    restart: always
+    ports:
+      - 8080:80
+    volumes:
+      - ./config/nagios/etc/:/opt/nagios/etc/
+      - ./config/nagios/var/:/opt/nagios/var/
+      - ./config/plugins:/opt/Custom-Nagios-Plugins

@@ -1,0 +1,565 @@
+[1494996066] Nagios 4.3.2 starting... (PID=14)
+[1494996066] Local time is Wed May 17 04:41:06 UTC 2017
+[1494996066] LOG VERSION: 2.0
+[1494996066] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1494996066] qh: core query handler registered
+[1494996066] nerd: Channel hostchecks registered successfully
+[1494996066] nerd: Channel servicechecks registered successfully
+[1494996066] nerd: Channel opathchecks registered successfully
+[1494996066] nerd: Fully initialized and ready to rock!
+[1494996066] wproc: Successfully registered manager as @wproc with query handler
+[1494996066] wproc: Registry request: name=Core Worker 22;pid=22
+[1494996066] wproc: Registry request: name=Core Worker 21;pid=21
+[1494996066] wproc: Registry request: name=Core Worker 20;pid=20
+[1494996066] wproc: Registry request: name=Core Worker 19;pid=19
+[1494996067] Successfully launched command file worker with pid 35
+[1494996194] SERVICE ALERT: localhost;HTTP;WARNING;SOFT;1;HTTP WARNING: HTTP/1.1 401 Unauthorized - 695 bytes in 0.000 second response time
+[1494996254] SERVICE ALERT: localhost;HTTP;WARNING;SOFT;2;HTTP WARNING: HTTP/1.1 401 Unauthorized - 695 bytes in 0.001 second response time
+[1494996314] SERVICE ALERT: localhost;HTTP;WARNING;SOFT;3;HTTP WARNING: HTTP/1.1 401 Unauthorized - 695 bytes in 0.000 second response time
+[1494996374] SERVICE ALERT: localhost;HTTP;WARNING;HARD;4;HTTP WARNING: HTTP/1.1 401 Unauthorized - 695 bytes in 0.000 second response time
+[1495001742] Nagios 4.3.2 starting... (PID=12)
+[1495001742] Local time is Wed May 17 06:15:42 UTC 2017
+[1495001742] LOG VERSION: 2.0
+[1495001742] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001742] Error: Failed to initialize query handler. Aborting
+[1495001743] Nagios 4.3.2 starting... (PID=29)
+[1495001743] Local time is Wed May 17 06:15:43 UTC 2017
+[1495001743] LOG VERSION: 2.0
+[1495001743] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001743] Error: Failed to initialize query handler. Aborting
+[1495001744] Nagios 4.3.2 starting... (PID=30)
+[1495001744] Local time is Wed May 17 06:15:44 UTC 2017
+[1495001744] LOG VERSION: 2.0
+[1495001744] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001744] Error: Failed to initialize query handler. Aborting
+[1495001745] Nagios 4.3.2 starting... (PID=33)
+[1495001745] Local time is Wed May 17 06:15:45 UTC 2017
+[1495001745] LOG VERSION: 2.0
+[1495001745] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001745] Error: Failed to initialize query handler. Aborting
+[1495001746] Nagios 4.3.2 starting... (PID=34)
+[1495001746] Local time is Wed May 17 06:15:46 UTC 2017
+[1495001746] LOG VERSION: 2.0
+[1495001746] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001746] Error: Failed to initialize query handler. Aborting
+[1495001747] Nagios 4.3.2 starting... (PID=35)
+[1495001747] Local time is Wed May 17 06:15:47 UTC 2017
+[1495001747] LOG VERSION: 2.0
+[1495001747] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001747] Error: Failed to initialize query handler. Aborting
+[1495001748] Nagios 4.3.2 starting... (PID=36)
+[1495001748] Local time is Wed May 17 06:15:48 UTC 2017
+[1495001748] LOG VERSION: 2.0
+[1495001748] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001748] Error: Failed to initialize query handler. Aborting
+[1495001749] Nagios 4.3.2 starting... (PID=37)
+[1495001749] Local time is Wed May 17 06:15:49 UTC 2017
+[1495001749] LOG VERSION: 2.0
+[1495001749] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001749] Error: Failed to initialize query handler. Aborting
+[1495001750] Nagios 4.3.2 starting... (PID=38)
+[1495001750] Local time is Wed May 17 06:15:50 UTC 2017
+[1495001750] LOG VERSION: 2.0
+[1495001750] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001750] Error: Failed to initialize query handler. Aborting
+[1495001751] Nagios 4.3.2 starting... (PID=39)
+[1495001751] Local time is Wed May 17 06:15:51 UTC 2017
+[1495001751] LOG VERSION: 2.0
+[1495001751] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001751] Error: Failed to initialize query handler. Aborting
+[1495001752] Nagios 4.3.2 starting... (PID=40)
+[1495001752] Local time is Wed May 17 06:15:52 UTC 2017
+[1495001752] LOG VERSION: 2.0
+[1495001752] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001752] Error: Failed to initialize query handler. Aborting
+[1495001753] Nagios 4.3.2 starting... (PID=41)
+[1495001753] Local time is Wed May 17 06:15:53 UTC 2017
+[1495001753] LOG VERSION: 2.0
+[1495001753] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001753] Error: Failed to initialize query handler. Aborting
+[1495001754] Nagios 4.3.2 starting... (PID=42)
+[1495001754] Local time is Wed May 17 06:15:54 UTC 2017
+[1495001754] LOG VERSION: 2.0
+[1495001754] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001754] Error: Failed to initialize query handler. Aborting
+[1495001755] Nagios 4.3.2 starting... (PID=43)
+[1495001755] Local time is Wed May 17 06:15:55 UTC 2017
+[1495001755] LOG VERSION: 2.0
+[1495001755] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001755] Error: Failed to initialize query handler. Aborting
+[1495001756] Nagios 4.3.2 starting... (PID=44)
+[1495001756] Local time is Wed May 17 06:15:56 UTC 2017
+[1495001756] LOG VERSION: 2.0
+[1495001756] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001756] Error: Failed to initialize query handler. Aborting
+[1495001757] Nagios 4.3.2 starting... (PID=45)
+[1495001757] Local time is Wed May 17 06:15:57 UTC 2017
+[1495001757] LOG VERSION: 2.0
+[1495001757] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001757] Error: Failed to initialize query handler. Aborting
+[1495001758] Nagios 4.3.2 starting... (PID=46)
+[1495001758] Local time is Wed May 17 06:15:58 UTC 2017
+[1495001758] LOG VERSION: 2.0
+[1495001758] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001758] Error: Failed to initialize query handler. Aborting
+[1495001759] Nagios 4.3.2 starting... (PID=47)
+[1495001759] Local time is Wed May 17 06:15:59 UTC 2017
+[1495001759] LOG VERSION: 2.0
+[1495001759] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001759] Error: Failed to initialize query handler. Aborting
+[1495001760] Nagios 4.3.2 starting... (PID=48)
+[1495001760] Local time is Wed May 17 06:16:00 UTC 2017
+[1495001760] LOG VERSION: 2.0
+[1495001760] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001760] Error: Failed to initialize query handler. Aborting
+[1495001761] Nagios 4.3.2 starting... (PID=49)
+[1495001761] Local time is Wed May 17 06:16:01 UTC 2017
+[1495001761] LOG VERSION: 2.0
+[1495001761] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001761] Error: Failed to initialize query handler. Aborting
+[1495001762] Nagios 4.3.2 starting... (PID=50)
+[1495001762] Local time is Wed May 17 06:16:02 UTC 2017
+[1495001762] LOG VERSION: 2.0
+[1495001762] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001762] Error: Failed to initialize query handler. Aborting
+[1495001763] Nagios 4.3.2 starting... (PID=51)
+[1495001763] Local time is Wed May 17 06:16:03 UTC 2017
+[1495001763] LOG VERSION: 2.0
+[1495001763] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001763] Error: Failed to initialize query handler. Aborting
+[1495001764] Nagios 4.3.2 starting... (PID=52)
+[1495001764] Local time is Wed May 17 06:16:04 UTC 2017
+[1495001764] LOG VERSION: 2.0
+[1495001764] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001764] Error: Failed to initialize query handler. Aborting
+[1495001765] Nagios 4.3.2 starting... (PID=53)
+[1495001765] Local time is Wed May 17 06:16:05 UTC 2017
+[1495001765] LOG VERSION: 2.0
+[1495001765] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001765] Error: Failed to initialize query handler. Aborting
+[1495001766] Nagios 4.3.2 starting... (PID=54)
+[1495001766] Local time is Wed May 17 06:16:06 UTC 2017
+[1495001766] LOG VERSION: 2.0
+[1495001766] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001766] Error: Failed to initialize query handler. Aborting
+[1495001767] Nagios 4.3.2 starting... (PID=55)
+[1495001767] Local time is Wed May 17 06:16:07 UTC 2017
+[1495001767] LOG VERSION: 2.0
+[1495001767] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001767] Error: Failed to initialize query handler. Aborting
+[1495001768] Nagios 4.3.2 starting... (PID=56)
+[1495001768] Local time is Wed May 17 06:16:08 UTC 2017
+[1495001768] LOG VERSION: 2.0
+[1495001768] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001768] Error: Failed to initialize query handler. Aborting
+[1495001769] Nagios 4.3.2 starting... (PID=57)
+[1495001769] Local time is Wed May 17 06:16:09 UTC 2017
+[1495001769] LOG VERSION: 2.0
+[1495001769] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001769] Error: Failed to initialize query handler. Aborting
+[1495001770] Nagios 4.3.2 starting... (PID=58)
+[1495001770] Local time is Wed May 17 06:16:10 UTC 2017
+[1495001770] LOG VERSION: 2.0
+[1495001770] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001770] Error: Failed to initialize query handler. Aborting
+[1495001771] Nagios 4.3.2 starting... (PID=59)
+[1495001771] Local time is Wed May 17 06:16:11 UTC 2017
+[1495001771] LOG VERSION: 2.0
+[1495001771] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001771] Error: Failed to initialize query handler. Aborting
+[1495001772] Nagios 4.3.2 starting... (PID=60)
+[1495001772] Local time is Wed May 17 06:16:12 UTC 2017
+[1495001772] LOG VERSION: 2.0
+[1495001772] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001772] Error: Failed to initialize query handler. Aborting
+[1495001773] Nagios 4.3.2 starting... (PID=61)
+[1495001773] Local time is Wed May 17 06:16:13 UTC 2017
+[1495001773] LOG VERSION: 2.0
+[1495001773] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001773] Error: Failed to initialize query handler. Aborting
+[1495001774] Nagios 4.3.2 starting... (PID=62)
+[1495001774] Local time is Wed May 17 06:16:14 UTC 2017
+[1495001774] LOG VERSION: 2.0
+[1495001774] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001774] Error: Failed to initialize query handler. Aborting
+[1495001775] Nagios 4.3.2 starting... (PID=63)
+[1495001775] Local time is Wed May 17 06:16:15 UTC 2017
+[1495001775] LOG VERSION: 2.0
+[1495001775] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001775] Error: Failed to initialize query handler. Aborting
+[1495001776] Nagios 4.3.2 starting... (PID=64)
+[1495001776] Local time is Wed May 17 06:16:16 UTC 2017
+[1495001776] LOG VERSION: 2.0
+[1495001776] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001776] Error: Failed to initialize query handler. Aborting
+[1495001777] Nagios 4.3.2 starting... (PID=65)
+[1495001777] Local time is Wed May 17 06:16:17 UTC 2017
+[1495001777] LOG VERSION: 2.0
+[1495001777] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001777] Error: Failed to initialize query handler. Aborting
+[1495001778] Nagios 4.3.2 starting... (PID=66)
+[1495001778] Local time is Wed May 17 06:16:18 UTC 2017
+[1495001778] LOG VERSION: 2.0
+[1495001778] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001778] Error: Failed to initialize query handler. Aborting
+[1495001779] Nagios 4.3.2 starting... (PID=67)
+[1495001779] Local time is Wed May 17 06:16:19 UTC 2017
+[1495001779] LOG VERSION: 2.0
+[1495001779] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001779] Error: Failed to initialize query handler. Aborting
+[1495001780] Nagios 4.3.2 starting... (PID=68)
+[1495001780] Local time is Wed May 17 06:16:20 UTC 2017
+[1495001780] LOG VERSION: 2.0
+[1495001780] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001780] Error: Failed to initialize query handler. Aborting
+[1495001781] Nagios 4.3.2 starting... (PID=69)
+[1495001781] Local time is Wed May 17 06:16:21 UTC 2017
+[1495001781] LOG VERSION: 2.0
+[1495001781] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001781] Error: Failed to initialize query handler. Aborting
+[1495001782] Nagios 4.3.2 starting... (PID=70)
+[1495001782] Local time is Wed May 17 06:16:22 UTC 2017
+[1495001782] LOG VERSION: 2.0
+[1495001782] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001782] Error: Failed to initialize query handler. Aborting
+[1495001783] Nagios 4.3.2 starting... (PID=71)
+[1495001783] Local time is Wed May 17 06:16:23 UTC 2017
+[1495001783] LOG VERSION: 2.0
+[1495001783] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001783] Error: Failed to initialize query handler. Aborting
+[1495001784] Nagios 4.3.2 starting... (PID=72)
+[1495001784] Local time is Wed May 17 06:16:24 UTC 2017
+[1495001784] LOG VERSION: 2.0
+[1495001784] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001784] Error: Failed to initialize query handler. Aborting
+[1495001785] Nagios 4.3.2 starting... (PID=73)
+[1495001785] Local time is Wed May 17 06:16:25 UTC 2017
+[1495001785] LOG VERSION: 2.0
+[1495001785] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001785] Error: Failed to initialize query handler. Aborting
+[1495001786] Nagios 4.3.2 starting... (PID=74)
+[1495001786] Local time is Wed May 17 06:16:26 UTC 2017
+[1495001786] LOG VERSION: 2.0
+[1495001786] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001786] Error: Failed to initialize query handler. Aborting
+[1495001787] Nagios 4.3.2 starting... (PID=75)
+[1495001787] Local time is Wed May 17 06:16:27 UTC 2017
+[1495001787] LOG VERSION: 2.0
+[1495001787] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001787] Error: Failed to initialize query handler. Aborting
+[1495001788] Nagios 4.3.2 starting... (PID=76)
+[1495001788] Local time is Wed May 17 06:16:28 UTC 2017
+[1495001788] LOG VERSION: 2.0
+[1495001788] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001788] Error: Failed to initialize query handler. Aborting
+[1495001789] Nagios 4.3.2 starting... (PID=77)
+[1495001789] Local time is Wed May 17 06:16:29 UTC 2017
+[1495001789] LOG VERSION: 2.0
+[1495001789] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001789] Error: Failed to initialize query handler. Aborting
+[1495001790] Nagios 4.3.2 starting... (PID=78)
+[1495001790] Local time is Wed May 17 06:16:30 UTC 2017
+[1495001790] LOG VERSION: 2.0
+[1495001790] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001790] Error: Failed to initialize query handler. Aborting
+[1495001791] Nagios 4.3.2 starting... (PID=79)
+[1495001791] Local time is Wed May 17 06:16:31 UTC 2017
+[1495001791] LOG VERSION: 2.0
+[1495001791] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001791] Error: Failed to initialize query handler. Aborting
+[1495001792] Nagios 4.3.2 starting... (PID=80)
+[1495001792] Local time is Wed May 17 06:16:32 UTC 2017
+[1495001792] LOG VERSION: 2.0
+[1495001792] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001792] Error: Failed to initialize query handler. Aborting
+[1495001793] Nagios 4.3.2 starting... (PID=81)
+[1495001793] Local time is Wed May 17 06:16:33 UTC 2017
+[1495001793] LOG VERSION: 2.0
+[1495001793] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001793] Error: Failed to initialize query handler. Aborting
+[1495001794] Nagios 4.3.2 starting... (PID=82)
+[1495001794] Local time is Wed May 17 06:16:34 UTC 2017
+[1495001794] LOG VERSION: 2.0
+[1495001794] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001794] Error: Failed to initialize query handler. Aborting
+[1495001795] Nagios 4.3.2 starting... (PID=83)
+[1495001795] Local time is Wed May 17 06:16:35 UTC 2017
+[1495001795] LOG VERSION: 2.0
+[1495001795] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001795] Error: Failed to initialize query handler. Aborting
+[1495001796] Nagios 4.3.2 starting... (PID=84)
+[1495001796] Local time is Wed May 17 06:16:36 UTC 2017
+[1495001796] LOG VERSION: 2.0
+[1495001796] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001796] Error: Failed to initialize query handler. Aborting
+[1495001797] Nagios 4.3.2 starting... (PID=85)
+[1495001797] Local time is Wed May 17 06:16:37 UTC 2017
+[1495001797] LOG VERSION: 2.0
+[1495001797] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001797] Error: Failed to initialize query handler. Aborting
+[1495001798] Nagios 4.3.2 starting... (PID=86)
+[1495001798] Local time is Wed May 17 06:16:38 UTC 2017
+[1495001798] LOG VERSION: 2.0
+[1495001798] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001798] Error: Failed to initialize query handler. Aborting
+[1495001799] Nagios 4.3.2 starting... (PID=87)
+[1495001799] Local time is Wed May 17 06:16:39 UTC 2017
+[1495001799] LOG VERSION: 2.0
+[1495001799] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001799] Error: Failed to initialize query handler. Aborting
+[1495001800] Nagios 4.3.2 starting... (PID=88)
+[1495001800] Local time is Wed May 17 06:16:40 UTC 2017
+[1495001800] LOG VERSION: 2.0
+[1495001800] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001800] Error: Failed to initialize query handler. Aborting
+[1495001801] Nagios 4.3.2 starting... (PID=89)
+[1495001801] Local time is Wed May 17 06:16:41 UTC 2017
+[1495001801] LOG VERSION: 2.0
+[1495001801] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001801] Error: Failed to initialize query handler. Aborting
+[1495001802] Nagios 4.3.2 starting... (PID=90)
+[1495001802] Local time is Wed May 17 06:16:42 UTC 2017
+[1495001802] LOG VERSION: 2.0
+[1495001802] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001802] Error: Failed to initialize query handler. Aborting
+[1495001803] Nagios 4.3.2 starting... (PID=91)
+[1495001803] Local time is Wed May 17 06:16:43 UTC 2017
+[1495001803] LOG VERSION: 2.0
+[1495001803] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001803] Error: Failed to initialize query handler. Aborting
+[1495001804] Nagios 4.3.2 starting... (PID=92)
+[1495001804] Local time is Wed May 17 06:16:44 UTC 2017
+[1495001804] LOG VERSION: 2.0
+[1495001804] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001804] Error: Failed to initialize query handler. Aborting
+[1495001805] Nagios 4.3.2 starting... (PID=93)
+[1495001805] Local time is Wed May 17 06:16:45 UTC 2017
+[1495001805] LOG VERSION: 2.0
+[1495001805] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001805] Error: Failed to initialize query handler. Aborting
+[1495001806] Nagios 4.3.2 starting... (PID=94)
+[1495001806] Local time is Wed May 17 06:16:46 UTC 2017
+[1495001806] LOG VERSION: 2.0
+[1495001806] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001806] Error: Failed to initialize query handler. Aborting
+[1495001807] Nagios 4.3.2 starting... (PID=95)
+[1495001807] Local time is Wed May 17 06:16:47 UTC 2017
+[1495001807] LOG VERSION: 2.0
+[1495001807] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001807] Error: Failed to initialize query handler. Aborting
+[1495001808] Nagios 4.3.2 starting... (PID=97)
+[1495001808] Local time is Wed May 17 06:16:48 UTC 2017
+[1495001808] LOG VERSION: 2.0
+[1495001808] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001808] Error: Failed to initialize query handler. Aborting
+[1495001809] Nagios 4.3.2 starting... (PID=100)
+[1495001809] Local time is Wed May 17 06:16:49 UTC 2017
+[1495001809] LOG VERSION: 2.0
+[1495001809] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001809] Error: Failed to initialize query handler. Aborting
+[1495001810] Nagios 4.3.2 starting... (PID=103)
+[1495001810] Local time is Wed May 17 06:16:50 UTC 2017
+[1495001810] LOG VERSION: 2.0
+[1495001810] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001810] Error: Failed to initialize query handler. Aborting
+[1495001811] Nagios 4.3.2 starting... (PID=104)
+[1495001811] Local time is Wed May 17 06:16:51 UTC 2017
+[1495001811] LOG VERSION: 2.0
+[1495001811] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001811] Error: Failed to initialize query handler. Aborting
+[1495001812] Nagios 4.3.2 starting... (PID=106)
+[1495001812] Local time is Wed May 17 06:16:52 UTC 2017
+[1495001812] LOG VERSION: 2.0
+[1495001812] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001812] Error: Failed to initialize query handler. Aborting
+[1495001813] Nagios 4.3.2 starting... (PID=107)
+[1495001813] Local time is Wed May 17 06:16:53 UTC 2017
+[1495001813] LOG VERSION: 2.0
+[1495001813] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001813] Error: Failed to initialize query handler. Aborting
+[1495001814] Nagios 4.3.2 starting... (PID=108)
+[1495001814] Local time is Wed May 17 06:16:54 UTC 2017
+[1495001814] LOG VERSION: 2.0
+[1495001814] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001814] Error: Failed to initialize query handler. Aborting
+[1495001815] Nagios 4.3.2 starting... (PID=109)
+[1495001815] Local time is Wed May 17 06:16:55 UTC 2017
+[1495001815] LOG VERSION: 2.0
+[1495001815] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001815] Error: Failed to initialize query handler. Aborting
+[1495001816] Nagios 4.3.2 starting... (PID=110)
+[1495001816] Local time is Wed May 17 06:16:56 UTC 2017
+[1495001816] LOG VERSION: 2.0
+[1495001816] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001816] Error: Failed to initialize query handler. Aborting
+[1495001817] Nagios 4.3.2 starting... (PID=111)
+[1495001817] Local time is Wed May 17 06:16:57 UTC 2017
+[1495001817] LOG VERSION: 2.0
+[1495001817] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001817] Error: Failed to initialize query handler. Aborting
+[1495001818] Nagios 4.3.2 starting... (PID=112)
+[1495001818] Local time is Wed May 17 06:16:58 UTC 2017
+[1495001818] LOG VERSION: 2.0
+[1495001818] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001818] Error: Failed to initialize query handler. Aborting
+[1495001819] Nagios 4.3.2 starting... (PID=113)
+[1495001819] Local time is Wed May 17 06:16:59 UTC 2017
+[1495001819] LOG VERSION: 2.0
+[1495001819] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001819] Error: Failed to initialize query handler. Aborting
+[1495001820] Nagios 4.3.2 starting... (PID=114)
+[1495001820] Local time is Wed May 17 06:17:00 UTC 2017
+[1495001820] LOG VERSION: 2.0
+[1495001820] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001820] Error: Failed to initialize query handler. Aborting
+[1495001821] Nagios 4.3.2 starting... (PID=115)
+[1495001821] Local time is Wed May 17 06:17:01 UTC 2017
+[1495001821] LOG VERSION: 2.0
+[1495001821] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001821] Error: Failed to initialize query handler. Aborting
+[1495001822] Nagios 4.3.2 starting... (PID=116)
+[1495001822] Local time is Wed May 17 06:17:02 UTC 2017
+[1495001822] LOG VERSION: 2.0
+[1495001822] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001822] Error: Failed to initialize query handler. Aborting
+[1495001823] Nagios 4.3.2 starting... (PID=117)
+[1495001823] Local time is Wed May 17 06:17:03 UTC 2017
+[1495001823] LOG VERSION: 2.0
+[1495001823] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001823] Error: Failed to initialize query handler. Aborting
+[1495001824] Nagios 4.3.2 starting... (PID=118)
+[1495001824] Local time is Wed May 17 06:17:04 UTC 2017
+[1495001824] LOG VERSION: 2.0
+[1495001824] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001824] Error: Failed to initialize query handler. Aborting
+[1495001825] Nagios 4.3.2 starting... (PID=119)
+[1495001825] Local time is Wed May 17 06:17:05 UTC 2017
+[1495001825] LOG VERSION: 2.0
+[1495001825] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001825] Error: Failed to initialize query handler. Aborting
+[1495001826] Nagios 4.3.2 starting... (PID=120)
+[1495001826] Local time is Wed May 17 06:17:06 UTC 2017
+[1495001826] LOG VERSION: 2.0
+[1495001826] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001826] Error: Failed to initialize query handler. Aborting
+[1495001827] Nagios 4.3.2 starting... (PID=121)
+[1495001827] Local time is Wed May 17 06:17:07 UTC 2017
+[1495001827] LOG VERSION: 2.0
+[1495001827] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001827] Error: Failed to initialize query handler. Aborting
+[1495001828] Nagios 4.3.2 starting... (PID=122)
+[1495001828] Local time is Wed May 17 06:17:08 UTC 2017
+[1495001828] LOG VERSION: 2.0
+[1495001828] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001828] Error: Failed to initialize query handler. Aborting
+[1495001829] Nagios 4.3.2 starting... (PID=123)
+[1495001829] Local time is Wed May 17 06:17:09 UTC 2017
+[1495001829] LOG VERSION: 2.0
+[1495001829] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001829] Error: Failed to initialize query handler. Aborting
+[1495001830] Nagios 4.3.2 starting... (PID=124)
+[1495001830] Local time is Wed May 17 06:17:10 UTC 2017
+[1495001830] LOG VERSION: 2.0
+[1495001830] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001830] Error: Failed to initialize query handler. Aborting
+[1495001831] Nagios 4.3.2 starting... (PID=125)
+[1495001831] Local time is Wed May 17 06:17:11 UTC 2017
+[1495001831] LOG VERSION: 2.0
+[1495001831] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001831] Error: Failed to initialize query handler. Aborting
+[1495001832] Nagios 4.3.2 starting... (PID=126)
+[1495001832] Local time is Wed May 17 06:17:12 UTC 2017
+[1495001832] LOG VERSION: 2.0
+[1495001832] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001832] Error: Failed to initialize query handler. Aborting
+[1495001833] Nagios 4.3.2 starting... (PID=127)
+[1495001833] Local time is Wed May 17 06:17:13 UTC 2017
+[1495001833] LOG VERSION: 2.0
+[1495001833] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001833] Error: Failed to initialize query handler. Aborting
+[1495001834] Nagios 4.3.2 starting... (PID=128)
+[1495001834] Local time is Wed May 17 06:17:14 UTC 2017
+[1495001834] LOG VERSION: 2.0
+[1495001834] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001834] Error: Failed to initialize query handler. Aborting
+[1495001913] Nagios 4.3.2 starting... (PID=12)
+[1495001913] Local time is Wed May 17 06:18:33 UTC 2017
+[1495001913] LOG VERSION: 2.0
+[1495001913] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001913] Error: Failed to initialize query handler. Aborting
+[1495001914] Nagios 4.3.2 starting... (PID=29)
+[1495001914] Local time is Wed May 17 06:18:34 UTC 2017
+[1495001914] LOG VERSION: 2.0
+[1495001914] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001914] Error: Failed to initialize query handler. Aborting
+[1495001915] Nagios 4.3.2 starting... (PID=30)
+[1495001915] Local time is Wed May 17 06:18:35 UTC 2017
+[1495001915] LOG VERSION: 2.0
+[1495001915] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001915] Error: Failed to initialize query handler. Aborting
+[1495001916] Nagios 4.3.2 starting... (PID=33)
+[1495001916] Local time is Wed May 17 06:18:36 UTC 2017
+[1495001916] LOG VERSION: 2.0
+[1495001916] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001916] Error: Failed to initialize query handler. Aborting
+[1495001917] Nagios 4.3.2 starting... (PID=35)
+[1495001917] Local time is Wed May 17 06:18:37 UTC 2017
+[1495001917] LOG VERSION: 2.0
+[1495001917] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001917] Error: Failed to initialize query handler. Aborting
+[1495001918] Nagios 4.3.2 starting... (PID=38)
+[1495001918] Local time is Wed May 17 06:18:38 UTC 2017
+[1495001918] LOG VERSION: 2.0
+[1495001918] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001918] Error: Failed to initialize query handler. Aborting
+[1495001919] Nagios 4.3.2 starting... (PID=41)
+[1495001919] Local time is Wed May 17 06:18:39 UTC 2017
+[1495001919] LOG VERSION: 2.0
+[1495001919] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001919] Error: Failed to initialize query handler. Aborting
+[1495001920] Nagios 4.3.2 starting... (PID=42)
+[1495001920] Local time is Wed May 17 06:18:40 UTC 2017
+[1495001920] LOG VERSION: 2.0
+[1495001920] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001920] Error: Failed to initialize query handler. Aborting
+[1495001921] Nagios 4.3.2 starting... (PID=53)
+[1495001921] Local time is Wed May 17 06:18:41 UTC 2017
+[1495001921] LOG VERSION: 2.0
+[1495001921] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Permission denied
+[1495001921] Error: Failed to initialize query handler. Aborting
+[1495002323] Nagios 4.3.2 starting... (PID=13)
+[1495002323] Local time is Wed May 17 06:25:23 UTC 2017
+[1495002323] LOG VERSION: 2.0
+[1495002323] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1495002323] qh: core query handler registered
+[1495002323] nerd: Channel hostchecks registered successfully
+[1495002323] nerd: Channel servicechecks registered successfully
+[1495002323] nerd: Channel opathchecks registered successfully
+[1495002323] nerd: Fully initialized and ready to rock!
+[1495002323] wproc: Successfully registered manager as @wproc with query handler
+[1495002323] wproc: Registry request: name=Core Worker 22;pid=22
+[1495002323] wproc: Registry request: name=Core Worker 23;pid=23
+[1495002323] wproc: Registry request: name=Core Worker 21;pid=21
+[1495002323] wproc: Registry request: name=Core Worker 20;pid=20
+[1495002323] Successfully launched command file worker with pid 33
+[1495002451] SERVICE ALERT: localhost;HTTP;WARNING;SOFT;1;HTTP WARNING: HTTP/1.1 401 Unauthorized - 695 bytes in 0.000 second response time
+[1495002511] SERVICE ALERT: localhost;HTTP;WARNING;SOFT;2;HTTP WARNING: HTTP/1.1 401 Unauthorized - 695 bytes in 0.000 second response time
+[1495002571] SERVICE ALERT: localhost;HTTP;WARNING;SOFT;3;HTTP WARNING: HTTP/1.1 401 Unauthorized - 695 bytes in 0.001 second response time
+[1495002631] SERVICE ALERT: localhost;HTTP;WARNING;HARD;4;HTTP WARNING: HTTP/1.1 401 Unauthorized - 695 bytes in 0.001 second response time
+[1495005923] Auto-save of retention data completed successfully.
+[1495009523] Auto-save of retention data completed successfully.
+[1495013123] Auto-save of retention data completed successfully.
+[1495016723] Auto-save of retention data completed successfully.
+[1495020322] Auto-save of retention data completed successfully.
+[1495023923] Auto-save of retention data completed successfully.
+[1495027523] Auto-save of retention data completed successfully.
+[1495031123] Auto-save of retention data completed successfully.
+[1495034723] Auto-save of retention data completed successfully.
+[1495038323] Auto-save of retention data completed successfully.
+[1495041923] Auto-save of retention data completed successfully.
+[1495045523] Auto-save of retention data completed successfully.
+[1495049123] Auto-save of retention data completed successfully.
+[1495052723] Auto-save of retention data completed successfully.
+[1495056323] Auto-save of retention data completed successfully.
+[1495059923] Auto-save of retention data completed successfully.
+[1495063523] Auto-save of retention data completed successfully.
