@@ -7,9 +7,17 @@ services:
     ports:
       - 80:80
       - 5666:5666
+    logging:
+      options:
+        max-size: "1m"
+        max-file: "2"
     volumes:
       - ./config/ssh:/opt/nagios/.ssh
-      - ./config/etc/:/opt/nagios/etc/
-      - ./config/var/:/opt/nagios/var/
       - ./config/plugins:/opt/Custom-Nagios-Plugins
       - ./config/apache2/nagios.conf:/etc/apache2/sites-available/nagios.conf
+      - ./config/etc/nagios.cfg:/opt/nagios/etc/nagios.cfg
+      - ./config/etc//htpasswd.users:/opt/nagios/etc//htpasswd.users
+      - ./config/etc/objects/localhost.cfg:/opt/nagios/etc/objects/localhost.cfg
+      - ./config/etc/objects/commands.cfg:/opt/nagios/etc/objects/commands.cfg
+      - ./config/etc/objects/contacts.cfg:/opt/nagios/etc/objects/contacts.cfg
+#      - ./config/var/:/opt/nagios/var/

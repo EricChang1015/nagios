@@ -211,32 +211,28 @@ SpaceUsed_F=`btokmgt $SpaceUsed`
 SpaceFree_F=`btokmgt $SpaceFree`
 
 
-PerfData="'used space'=${SpaceUsed}B;${WarnSpaceAbs};${CritSpaceAbs};0;${SpaceTotal} 'used space
-(pct.)'=${SpaceUsedProc}%;${WarnSpace};${CritSpace};0;100"
+PerfData="/=${SpaceUsedProc}%;${WarnSpace};${CritSpace};0;100"
+#PerfData="'used space'=${SpaceUsed}B;${WarnSpaceAbs};${CritSpaceAbs};0;${SpaceTotal} 'used space (pct.)'=${SpaceUsedProc}%;${WarnSpace};${CritSpace};0;100"
 
 if fcomp $SpaceUsedProc $WarnSpace
 then
-    echo "OK; $Partition: total ${SpaceTotal_F}, used ${SpaceUsed_F} (${SpaceUsedProc}%), free ${SpaceFree_F}
-(${SpaceFreeProc}%) | $PerfData"
+    echo "OK; $Partition: total ${SpaceTotal_F}, used ${SpaceUsed_F} (${SpaceUsedProc}%), free ${SpaceFree_F} (${SpaceFreeProc}%) | $PerfData"
     exit 0
 fi
 
 if fcomp $WarnSpace $SpaceUsedProc && fcomp $SpaceUsedProc $CritSpace
 then
-    echo "Warning; $Partition: total ${SpaceTotal_F}, used ${SpaceUsed_F} (${SpaceUsedProc}%>${WarnSpace}%), free
-${SpaceFree_F} (${SpaceFreeProc}%) | $PerfData"
+    echo "Warning; $Partition: total ${SpaceTotal_F}, used ${SpaceUsed_F} (${SpaceUsedProc}%>${WarnSpace}%), free ${SpaceFree_F} (${SpaceFreeProc}%) | $PerfData"
     exit 1
 fi
 
 if fcomp $CritSpace $SpaceUsedProc
 then
-    echo "CRITICAL; $Partition: total ${SpaceTotal_F}, used ${SpaceUsed_F} (${SpaceUsedProc}%>${CritSpace}%), free
-${SpaceFree_F} (${SpaceFreeProc}%) | $PerfData"
+    echo "CRITICAL; $Partition: total ${SpaceTotal_F}, used ${SpaceUsed_F} (${SpaceUsedProc}%>${CritSpace}%), free ${SpaceFree_F} (${SpaceFreeProc}%) | $PerfData"
     exit 2
 fi
 
 #otherwise ... UNKNOWN
-echo "UNKNOWN; $Partition: total ${SpaceTotal_F}, used ${SpaceUsed_F} (${SpaceUsedProc}%), free ${SpaceFree_F}
-(${SpaceFreeProc}%) | $PerfData"
+echo "UNKNOWN; $Partition: total ${SpaceTotal_F}, used ${SpaceUsed_F} (${SpaceUsedProc}%), free ${SpaceFree_F} (${SpaceFreeProc}%) | $PerfData"
 exit 3
 

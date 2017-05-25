@@ -25,11 +25,10 @@ main()
         return 1
     fi
     
-    mkdir -p config/nagios/
     mkdir -p config/plugins/
     mkdir -p config/apache2/
-    docker cp $containerID:/opt/nagios/etc ./config/nagios/.
-    docker cp $containerID:/opt/nagios/var ./config/nagios/.
+    docker cp $containerID:/opt/nagios/etc ./config/.
+    docker cp $containerID:/opt/nagios/var ./config/.
     docker cp $containerID:/opt/Custom-Nagios-Plugins ./config/plugins
     docker cp $containerID:/etc/apache2/sites-available/nagios.conf ./config/apache2/.
     sudo chmod 777 ./config -R
