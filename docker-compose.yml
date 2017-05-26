@@ -9,7 +9,7 @@ services:
       - 5666:5666
     logging:
       options:
-        max-size: "1m"
+        max-size: "5m"
         max-file: "2"
     volumes:
       - ./config/ssh:/opt/nagios/.ssh
@@ -20,4 +20,5 @@ services:
       - ./config/etc/objects/localhost.cfg:/opt/nagios/etc/objects/localhost.cfg
       - ./config/etc/objects/commands.cfg:/opt/nagios/etc/objects/commands.cfg
       - ./config/etc/objects/contacts.cfg:/opt/nagios/etc/objects/contacts.cfg
-#      - ./config/var/:/opt/nagios/var/
+      - ./config/graphrrd:/opt/nagiosgraph/var/rrd
+
