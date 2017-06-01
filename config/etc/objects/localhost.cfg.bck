@@ -37,6 +37,12 @@ define host{
         address                 www.aspectgaming.com
 }
 
+define host{
+        use                     linux-server            ; Name of host template to use
+        host_name               grsServer
+        alias                   "GRS Production Server"
+        address                 grs.aspectgaming.com
+}
 
 
 ###############################################################################
@@ -69,7 +75,7 @@ define hostgroup{
 
 define service{
         use                             local-service,graphed-service         ; Name of service template to use
-        host_name                       localhost,webServer
+        host_name                       localhost,webServer,grsServer
         service_description             PING
      	check_command			check_ping!100.0,20%!500.0,60%
         }
@@ -88,7 +94,7 @@ define service{
 
 define service{
         use                             local-service,graphed-service         ; Name of service template to use
-        host_name                       webServer
+        host_name                       webServer,grsServer
         service_description             Root Partition
 	    check_command			            check_remote_disk!70!90!/
         }
@@ -139,24 +145,16 @@ define service{
         use                             local-service,graphed-service         ; Name of service template to use
         host_name                       webServer
         service_description             HTTP
-        check_command			check_http
-    	notifications_enabled		1
-        }
-
-define service{
-        use                             local-service         ; Name of service template to use
-        host_name                       webServer
-        service_description             HTTPS
-        check_command			check_https
+	    check_command			check_http
     	notifications_enabled		1
         }
 
 define service{
         use                             local-service,graphed-service         ; Name of service template to use
-        host_name                       webServer
+        host_name                       webServer,grsServer
         service_description             SSH
-    	check_command		        check_ssh
-        notifications_enabled		    1
+    	check_command			        check_ssh
+	    notifications_enabled		    1
         }
 
 
