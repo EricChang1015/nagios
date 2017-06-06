@@ -5,7 +5,7 @@ services:
     image: jasonrivers/nagios:latest
     restart: always
     ports:
-      - 80:80
+      - 81:80
       - 5666:5666
     logging:
       options:
