@@ -16,7 +16,8 @@ if [ $# -eq 2 ]; then
     args="--since $2"
 fi
 
-docker logs $container $args 2>&1 | grep -E "error|Error|ERROR|at " --color -A1
+#prevent too many logs
+docker logs $container $args 2>&1 | grep -E "ERROR" --color -A10 | grep -E "ERROR|at |--|EXCEPTION|Exception"
 
 if [ $? == 0 ]; then
     exit 1
