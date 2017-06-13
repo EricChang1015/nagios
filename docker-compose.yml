@@ -5,7 +5,7 @@ services:
     image: jasonrivers/nagios:latest
     restart: always
     ports:
-      - 81:80
+      - 8081:80
       - 5666:5666
     logging:
       options:
@@ -19,6 +19,7 @@ services:
       - ./config/etc/nagios.cfg:/opt/nagios/etc/nagios.cfg
       - ./config/etc/htpasswd.users:/opt/nagios/etc/htpasswd.users
       - ./config/etc/objects:/opt/nagios/etc/objects
+#      - ./status.dat:/opt/nagios/var/status.dat
 #      - ./config/etc/objects/localhost.cfg:/opt/nagios/etc/objects/localhost.cfg
 #      - ./config/etc/objects/commands.cfg:/opt/nagios/etc/objects/commands.cfg
 #      - ./config/etc/objects/contacts.cfg:/opt/nagios/etc/objects/contacts.cfg
