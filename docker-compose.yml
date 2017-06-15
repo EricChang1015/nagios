@@ -16,6 +16,7 @@ services:
       - ./config/plugins:/opt/Custom-Nagios-Plugins
       - ./config/apache2/nagios.conf:/etc/apache2/sites-available/nagios.conf
       - ./config/graphrrd:/opt/nagiosgraph/var/rrd
+      - ./config/etc/cgi.cfg:/opt/nagios/etc/cgi.cfg
       - ./config/etc/nagios.cfg:/opt/nagios/etc/nagios.cfg
       - ./config/etc/htpasswd.users:/opt/nagios/etc/htpasswd.users
       - ./config/etc/objects:/opt/nagios/etc/objects
