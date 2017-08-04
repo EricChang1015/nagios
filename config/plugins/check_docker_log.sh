@@ -17,7 +17,7 @@ if [ $# -eq 2 ]; then
 fi
 
 #prevent too many logs
-docker logs $container $args 2>&1 | grep -E "ERROR" --color -A100 | grep -E "ERROR|at |--|EXCEPTION|Exception"
+docker logs $container $args 2>&1 | grep ERROR | sed "s/.* ERROR/ERROR/g" | sort | uniq -c | sort -hr | grep ERROR
 
 if [ $? == 0 ]; then
     exit 1
